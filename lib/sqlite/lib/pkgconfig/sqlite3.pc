@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/home/arnold/Workspace/enforce_cam/ec_main_app/lib/sqlite
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: SQLite
+Description: SQL database engine
+Version: 3.21.0
+Libs: -L${libdir} -lsqlite3
+Libs.private: -ldl -lpthread 
+Cflags: -I${includedir}

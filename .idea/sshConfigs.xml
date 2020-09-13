@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="www.8pillars.cn" id="1591825b-775b-48be-b6c2-7e372c7ebec8" port="6000" customName="BuildSrv" nameFormat="CUSTOM">
+        <option name="customName" value="BuildSrv" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

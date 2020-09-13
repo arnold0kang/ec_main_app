@@ -1,0 +1,18 @@
+{
+  "encoder": {
+    "video": {
+      "bitrate": 4096,
+      "framerate": 25
+    }
+  },
+  "recoder": {
+    "mode": 0,
+    "interval": 100
+  },
+  "stream": {
+    "url":"rtmp://192.168.56.101:1935/liv/test"
+  },
+  "alarm": {
+    "url":"http://192.168.56.21:8080/test.html"
+  }
+}

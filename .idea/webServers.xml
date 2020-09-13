@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="29fa38ef-66a5-441a-bf12-0238a0667ef1" name="BuildSrv" url="http://www.8pillars.cn">
+        <fileTransfer host="www.8pillars.cn" port="6000" rootFolder="/home/arnold/enforce_cam/ec_main_app" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="30000" />
+          </advancedOptions>
+          <option name="port" value="6000" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

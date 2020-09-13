@@ -1,0 +1,10 @@
+#! /bin/sh
+echo arm-hisiv500-linux
+exit
+
+# Local variables:
+# eval: (add-hook 'write-file-hooks 'time-stamp)
+# time-stamp-start: "timestamp='"
+# time-stamp-format: "%:y-%02m-%02d"
+# time-stamp-end: "'"
+# End:

@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ec_main_app"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/f/enforce_cam/ec_main_app/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/enforce_cam/ec_main_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/enforce_cam/ec_main_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/enforce_cam/ec_main_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/enforce_cam/ec_main_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/f/enforce_cam/ec_main_app/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/enforce_cam/ec_main_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/enforce_cam/ec_main_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/enforce_cam/ec_main_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/enforce_cam/ec_main_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ec_main_app-debug-1.19-20191116222112">
+				<Option output="/cygdrive/f/enforce_cam/ec_main_app/cmake-build-debug/ec_main_app-debug-1.19-20191116222112.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/f/enforce_cam/ec_main_app/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSENSOR_TYPE=SONY_IMX323_CMOS_1080P_30FPS"/>
+					<Add option="-Dhi3516cv300"/>
+					<Add option="-DHICHIP=0x3516C300"/>
+					<Add option="-DHI_ACODEC_TYPE_INNER"/>
+					<Add option="-DBUILD_TYPE=debug"/>
+					<Add option="-DBUILD_TIME=20191116222112"/>
+					<Add directory="/cygdrive/f/enforce_cam/ec_main_app/lib/zlog/inc"/>
+					<Add directory="/cygdrive/f/enforce_cam/ec_main_app/lib/freetype/include"/>
+					<Add directory="/cygdrive/f/enforce_cam/ec_main_app/lib/hisi_50/inc"/>
+					<Add directory="/cygdrive/f/enforce_cam/ec_main_app/lib/lib_ghttp/include"/>
+					<Add directory="/cygdrive/f/enforce_cam/ec_main_app/lib/libmp4/include"/>
+					<Add directory="/cygdrive/f/enforce_cam/ec_main_app/lib/librtmp/inc"/>
+					<Add directory="/cygdrive/f/enforce_cam/ec_main_app/lib/libsdl/include"/>
+					<Add directory="/cygdrive/f/enforce_cam/ec_main_app/lib/libsdl_ttf/include/SDL2"/>
+					<Add directory="/cygdrive/f/enforce_cam/ec_main_app/lib/libaac/inc"/>
+					<Add directory="/cygdrive/f/enforce_cam/ec_main_app/lib/sqlite/include"/>
+					<Add directory="/cygdrive/f/enforce_cam/ec_main_app/lib/libuv/include"/>
+					<Add directory="/cygdrive/f/enforce_cam/ec_main_app/lib/libcurl/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/enforce_cam/ec_main_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 ec_main_app-debug-1.19-20191116222112"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/enforce_cam/ec_main_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/enforce_cam/ec_main_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/enforce_cam/ec_main_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ec_main_app-debug-1.19-20191116222112/fast">
+				<Option output="/cygdrive/f/enforce_cam/ec_main_app/cmake-build-debug/ec_main_app-debug-1.19-20191116222112.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/f/enforce_cam/ec_main_app/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSENSOR_TYPE=SONY_IMX323_CMOS_1080P_30FPS"/>
+					<Add option="-Dhi3516cv300"/>
+					<Add option="-DHICHIP=0x3516C300"/>
+					<Add option="-DHI_ACODEC_TYPE_INNER"/>
+					<Add option="-DBUILD_TYPE=debug"/>
+					<Add option="-DBUILD_TIME=20191116222112"/>
+					<Add directory="/cygdrive/f/enforce_cam/ec_main_app/lib/zlog/inc"/>
+					<Add directory="/cygdrive/f/enforce_cam/ec_main_app/lib/freetype/include"/>
+					<Add directory="/cygdrive/f/enforce_cam/ec_main_app/lib/hisi_50/inc"/>
+					<Add directory="/cygdrive/f/enforce_cam/ec_main_app/lib/lib_ghttp/include"/>
+					<Add directory="/cygdrive/f/enforce_cam/ec_main_app/lib/libmp4/include"/>
+					<Add directory="/cygdrive/f/enforce_cam/ec_main_app/lib/librtmp/inc"/>
+					<Add directory="/cygdrive/f/enforce_cam/ec_main_app/lib/libsdl/include"/>
+					<Add directory="/cygdrive/f/enforce_cam/ec_main_app/lib/libsdl_ttf/include/SDL2"/>
+					<Add directory="/cygdrive/f/enforce_cam/ec_main_app/lib/libaac/inc"/>
+					<Add directory="/cygdrive/f/enforce_cam/ec_main_app/lib/sqlite/include"/>
+					<Add directory="/cygdrive/f/enforce_cam/ec_main_app/lib/libuv/include"/>
+					<Add directory="/cygdrive/f/enforce_cam/ec_main_app/lib/libcurl/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/enforce_cam/ec_main_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 ec_main_app-debug-1.19-20191116222112/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/enforce_cam/ec_main_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/enforce_cam/ec_main_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/enforce_cam/ec_main_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/f/enforce_cam/ec_main_app/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/enforce_cam/ec_main_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/enforce_cam/ec_main_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/enforce_cam/ec_main_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/enforce_cam/ec_main_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/3th_src/cJSON.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/3th_src/cJSON.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/3th_src/rs232.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/3th_src/rs232.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/alarm/ec_alarm.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/alarm/ec_alarm.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/auth/ec_auth.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/auth/ec_auth.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/beep/ec_beep.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/beep/ec_beep.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/button/ec_btn_alarm.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/button/ec_btn_alarm.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/button/ec_btn_charge.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/button/ec_btn_charge.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/button/ec_btn_comm.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/button/ec_btn_comm.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/button/ec_btn_conf.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/button/ec_btn_snap.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/button/ec_btn_snap.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/button/ec_btn_wifi.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/button/ec_btn_wifi.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/common/ec_define.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/conf/ec_conf.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/conf/ec_conf.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/conf/ec_version.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/dev_stat/ec_dev_stat.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/dev_stat/ec_dev_stat.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/dev_stat/ec_dev_state_define.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/disk_manager/ec_disk_monitor.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/disk_manager/ec_disk_monitor.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/disk_manager/ec_usb_disk.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/disk_manager/ec_usb_disk.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/eeprom/ec_eeprom.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/eeprom/ec_eeprom.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/eeprom/ec_eeprom_test.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/event/ec_event.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/event/ec_event.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/event/ec_event_define.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/gpio/ec_gpio.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/gpio/ec_gpio.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/i2c/ec_iic_priv.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/i2c/ec_iic_priv.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/king_main.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/led/ec_led.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/led/ec_led.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/led/ec_led_alg.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/libuv_wraper/ec_libuv.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/libuv_wraper/ec_libuv.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/log/ec_log.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/log/ec_log.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/module_manager/ec_module.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/module_manager/ec_module.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/power_manager/battery/ec_lsadc.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/power_manager/battery/ec_lsadc.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/power_manager/ec_power.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/power_manager/ec_power.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/pwm/hi_pwm.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/pwm/hi_pwm.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/recoder_manager/ec_recode_worker.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/recoder_manager/ec_recode_worker.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/recoder_manager/ec_recoder_rotator.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/recoder_manager/ec_recoder_rotator.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/recoder_manager/ec_record.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/recoder_manager/ec_record.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/recoder_manager/ec_record_mp4.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/recoder_manager/ec_record_mp4.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/recoder_manager/ec_recorde_alarm.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/recoder_manager/ec_recorde_alarm.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/rtc/ec_rtc.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/rtc/ec_rtc.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/rtc/hi_rtc.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/ec_hisi_sdk.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/ec_hisi_sdk.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/ec_hisi_sdk_conf.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/ec_hisi_sdk_live.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/ec_hisi_sdk_live.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/ec_hisi_sdk_recorder.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/ec_hisi_sdk_recorder.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/ec_hisi_sdk_snap.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/ec_hisi_sdk_snap.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/ec_osd.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/ec_osd.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/hisi_50/aacenc.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/hisi_50/audio_aac_adp.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/hisi_50/audio_aac_adp.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/hisi_50/loadbmp.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/hisi_50/loadbmp.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/hisi_50/memmap.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/hisi_50/memmap.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/hisi_50/sample_comm.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/hisi_50/sample_comm_audio.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/hisi_50/sample_comm_isp.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/hisi_50/sample_comm_ive.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/hisi_50/sample_comm_ive.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/hisi_50/sample_comm_sys.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/hisi_50/sample_comm_venc.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/hisi_50/sample_comm_vi.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/hisi_50/sample_comm_vo.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/sdk/hisi_50/sample_comm_vpss.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/signal/ec_signal.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/signal/ec_signal.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/snap/ec_snap.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/snap/ec_snap.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/stream_manager/ec_stream.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/stream_manager/ec_stream.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/stream_manager/ec_stream_test.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/stream_manager/ec_stream_worker.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/stream_manager/ec_stream_worker.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/stream_manager/srs_librtmp.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/utils/ec_ko.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/utils/ec_ko.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/utils/ec_reg.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/utils/ec_reg.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/utils/ec_utils.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/utils/ec_utils.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/wifi/ec_wifi.c">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/src/wifi/ec_wifi.h">
+			<Option target="ec_main_app-debug-1.19-20191116222112"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/enforce_cam/ec_main_app/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
